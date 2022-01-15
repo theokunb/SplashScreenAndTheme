@@ -20,8 +20,8 @@ namespace SplashScreen
 
 
             await Task.WhenAll(
-                SplashGrid.FadeTo(0, 2000),
-                icon.ScaleTo(10, 2000)
+                SplashGrid.FadeTo(0, 500),
+                icon.ScaleTo(10, 500)
                 );
         }
     }
